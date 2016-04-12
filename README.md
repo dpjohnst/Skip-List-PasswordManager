@@ -6,12 +6,13 @@ Written by: Dylan Johnston
 A password manager class that uses a custom skip-list class to store and authenticate users access to accounts and applications.
 ## Usage
 ***
+
 ##### Initialisation
-Initialise a Skip-List Password Manager by calling the constructor with no arguments. 
+Initialise a Skip-List Password Manager by calling the constructor for the class SkipListPasswordManager with no arguments. 
 
 ##### Methods
 **hash(String password):**  
-Returns the djb2 hash representation of the given password  .
+Returns the djb2 hash representation of the given password.
 
 List **listUsers():**  
 **Returns** a list of all usernames currently stored.
