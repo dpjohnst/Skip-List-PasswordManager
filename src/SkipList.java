@@ -377,7 +377,8 @@ public class SkipList<K extends Comparable<K>, V>{
 		}
 		
 		return true;
-
+	}
+	
 	// Adds a new layer to the skip-list, one layer above the given left sentinel node
 	// Returns the left sentinel node in the new layer
 	private SkipListNode<K,V> expand(SkipListNode<K,V> left){
